@@ -2,3 +2,5 @@ Algoritmo Factorial()
   Inicio
           Definir N
           Escribir"Ingrese N"
+          Leer N
+         

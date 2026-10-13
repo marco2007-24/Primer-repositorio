@@ -1,0 +1,22 @@
+Algoritmo CuatroDatos()
+  Inicio
+          Definir a, b, c, d Como Real
+          Definir producto, suma, media Como Real
+      
+          Escribir "Ingrese el primer numero:"
+          Leer a
+          Escribir "Ingrese el segundo numero:"
+          Leer b
+          Escribir "Ingrese el tercer numero:"
+          Leer c
+          Escribir "Ingrese el cuarto numero:"
+          Leer d
+      
+          producto <- a * b * c * d
+          suma <- a + b + c + d
+          media <- suma / 4
+      
+          Escribir "El producto es: ", producto
+          Escribir "La suma es: ", suma
+          Escribir "La media aritmetica es: ", media
+ Fin

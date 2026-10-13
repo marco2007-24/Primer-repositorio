@@ -1,5 +1,5 @@
-Algoritmo AreaTriangulo
-   Inici
+Algoritmo AreaTriangulo()
+  Inici
           Definir base, altura, area Como Real
           Escribir "Ingrese la base del triangulo:"
           Leer base
@@ -7,5 +7,5 @@ Algoritmo AreaTriangulo
           Leer altura
           area <- (base * altura) / 2
           Escribir "El area del triangulo es: ", area
- Fin
+   Fin
 

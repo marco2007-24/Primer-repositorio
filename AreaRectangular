@@ -1,4 +1,4 @@
-Algoritmo AreaRectangulo
+Algoritmo AreaRectangulo()
   Inicio
           Definir base, altura, area Como Real
           Escribir "Ingrese la base del rectangulo:"

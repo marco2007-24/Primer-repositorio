@@ -1,0 +1,16 @@
+  Algoritmo Circunferencia()
+    Inicio
+            Definir radio, longitud, area Como Real
+            Definir pi Como Real
+        
+            pi <- 3.1416
+        
+            Escribir "Ingrese el radio de la circunferencia:"
+            Leer radio
+        
+            longitud <- 2 * pi * radio
+            area <- pi * radio ^ 2
+        
+            Escribir "La longitud es: ", longitud
+            Escribir "El area es: ", area
+    Fin

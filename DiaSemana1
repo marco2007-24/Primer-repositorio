@@ -1,4 +1,4 @@
-Algoritmo DiaSemana
+Algoritmo DiaSemana()
   Inicio
           Definir num Como Entero
           Escribir "Ingrese un numero del 1 al 7:"

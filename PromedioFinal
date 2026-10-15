@@ -1,0 +1,30 @@
+Algoritmo Promedio_Final
+   Inicio
+         //Declaracion 
+          Definir nota1, nota2, nota3, promedio Como Real
+          //Cuerpo
+          Repetir
+              Escribir "Ingrese la nota del primer parcial (0 a 10):"
+              Leer nota1
+          Hasta Que nota1 >= 0 Y nota1 <= 10
+      
+          Repetir
+              Escribir "Ingrese la nota del segundo parcial (0 a 10):"
+              Leer nota2
+          Hasta Que nota2 >= 0 Y nota2 <= 10
+      
+          Repetir
+              Escribir "Ingrese la nota del tercer parcial (0 a 10):"
+              Leer nota3
+          Hasta Que nota3 >= 0 Y nota3 <= 10
+      
+          promedio <- nota1 * 0.30 + nota2 * 0.30 + nota3 * 0.40
+      
+          Escribir "El promedio final es: ", promedio
+      
+          Si promedio >= 7 Entonces
+              Escribir "El estudiante aprueba"
+          Sino
+              Escribir "El estudiante no aprueba"
+          FinSi
+      Fin

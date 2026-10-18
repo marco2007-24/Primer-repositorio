@@ -1,0 +1,14 @@
+Algoritmo Precio_Articulo
+  Inicio
+          Definir precio, descuento, subtotal, iva, final Como Real
+          Escribir "Ingrese el precio original:"
+          Leer precio
+      
+          descuento <- precio * 0.20
+          subtotal <- precio - descuento
+          iva <- subtotal * 0.15
+          final <- subtotal + iva
+      
+          Escribir "Precio con descuento: ", subtotal
+          Escribir "Precio final: ", final
+  Fin

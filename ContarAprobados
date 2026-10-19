@@ -1,0 +1,22 @@
+Algoritmo ContarAprobados 
+   Inicio
+          Definir n,i,aprobados,repobrados Como Real
+          Definir Nota como Real
+          aprobados<-0
+          repobradoa<-o
+          Escribir"Ingrese la cantidad de estudiantes"
+          Leer n
+          Para i<-Hasta N Hacer
+               Escribir"Ingrese la estudiantes nota del estudiante",i,":"
+               Leer nota
+
+              Si nota >= 7 Entonces
+                  aprobados <- aprobados + 1
+              Sino
+                  reprobados <- reprobados + 1
+              FinSi
+          FinPara
+
+        Escribir "Cantidad de aprobados: ", aprobados
+        Escribir "Cantidad de reprobados: ", reprobados
+    Fin

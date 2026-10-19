@@ -1,0 +1,22 @@
+Algoritmo DescuentoCompra
+  Inicio
+          Definir compra, descuento, total Como Real
+      
+          Escribir "Ingrese el monto de la compra:"
+          Leer compra
+      
+          Si compra >= 200 Entonces
+              descuento <- compra * 0.15
+          Sino
+              Si compra >= 100 Entonces
+                  descuento <- compra * 0.10
+              Sino
+                  descuento <- compra * 0.05
+              FinSi
+          FinSi
+      
+          total <- compra - descuento
+      
+          Escribir "Descuento aplicado: ", descuento
+          Escribir "Monto a pagar: ", total
+  Fin

@@ -1,0 +1,13 @@
+Algoritmo Aprobacion
+  Inicio
+          Definir promedio Como Real
+      
+          Escribir "Ingrese el promedio final:"
+          Leer promedio
+      
+          Si promedio >= 7 Entonces
+              Escribir "APRUEBA"
+          Sino
+              Escribir "NO APRUEBA"
+          FinSi
+  Fin

@@ -1,0 +1,21 @@
+Algoritmo PromedioNotas ()
+  Inicio
+          Definir n,i como Enteros
+          Definir nota,suma,promedio Como Entero
+          Suma<- 0
+          Escribir"Ingrese la cantidad de notas"
+          Leer n
+          Para i<- i Hasta n Hacer
+                  Escribir "Ingrese la nota ", i, ":"
+                    Leer nota
+                    suma <- suma + nota
+                FinPara
+            
+                Si n > 0 Entonces
+                    promedio <- suma / n
+                    Escribir "El promedio es: ", promedio
+                Sino
+                    Escribir "La cantidad de notas debe ser mayor que cero"
+                FinSi
+   Fin
+          

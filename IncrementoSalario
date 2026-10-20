@@ -1,0 +1,11 @@
+Algoritmo IncremetoSalario()
+  Inicio
+          Definir salario como Real
+          Definir anio como Real}
+          Salario<-1500
+          Para<-i Hasta 6 Hacer
+          Salario<-salario* 1.10
+          Escribir "Salario del año ", añio, ": ", salario
+          FinPara
+          Escribir "Salario final: ", salario
+  Fin

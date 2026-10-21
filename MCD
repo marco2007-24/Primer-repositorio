@@ -1,0 +1,15 @@
+Algoritmo MCD
+  Inicio
+          Definir a, b, residuo Como Entero
+      
+          Escribir "Ingrese dos números enteros positivos:"
+          Leer a, b
+      
+          Mientras b <> 0 Hacer
+              residuo <- a MOD b
+              a <- b
+              b <- residuo
+          FinMientras
+      
+          Escribir "El MCD es: ", a
+  Fin

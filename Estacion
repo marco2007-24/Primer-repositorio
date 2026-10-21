@@ -1,4 +1,4 @@
-Algoritmo Estacion
+Algoritmo Estacion()
   Inicio
           Definir mes, dia Como Entero
           Escribir "Ingrese el mes (1-12):"

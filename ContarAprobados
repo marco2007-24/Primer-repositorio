@@ -1,4 +1,4 @@
-Algoritmo ContarAprobados 
+Algoritmo ContarAprobados ()
    Inicio
           Definir n,i,aprobados,repobrados Como Real
           Definir Nota como Real

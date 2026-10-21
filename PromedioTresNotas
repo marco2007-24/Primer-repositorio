@@ -1,4 +1,4 @@
-Algoritmo PromedioTresNotas
+Algoritmo PromedioTresNotas()
   Inicio
           Definir nota1, nota2, nota3, promedio Como Real
       

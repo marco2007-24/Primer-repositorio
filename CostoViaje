@@ -1,0 +1,31 @@
+Algoritmo CostoViaje
+    Definir distancia, consumo, precio Como Real
+    Definir litros, combustible, peajes, costo, total Como Real
+    Definir cantidad, i Como Entero
+
+    Escribir "Ingrese la distancia en km:"
+    Leer distancia
+    Escribir "Ingrese el consumo en km por litro:"
+    Leer consumo
+    Escribir "Ingrese el precio por litro:"
+    Leer precio
+    Escribir "Cantidad de peajes:"
+    Leer cantidad
+
+    litros <- distancia / consumo
+    combustible <- litros * precio
+    peajes <- 0
+
+    Para i <- 1 Hasta cantidad Hacer
+        Escribir "Costo del peaje ", i, ":"
+        Leer costo
+        peajes <- peajes + costo
+    FinPara
+
+    total <- combustible + peajes
+
+    Escribir "Litros necesarios: ", litros
+    Escribir "Costo de combustible: $", combustible
+    Escribir "Costo de peajes: $", peajes
+    Escribir "Costo total: $", total
+FinAlgoritmo

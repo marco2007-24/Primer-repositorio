@@ -1,4 +1,5 @@
-Algoritmo TipoTriangulo
+Algoritmo TipoTriangulo()
+  Inicio
     Definir a, b, c, mayor Como Real
     Escribir "Ingrese los tres ángulos:"
     Leer a, b, c
@@ -23,4 +24,4 @@ Algoritmo TipoTriangulo
     SiNo
         Escribir "Los ángulos no forman un triángulo"
     FinSi
-FinAlgoritmo
+ Fin

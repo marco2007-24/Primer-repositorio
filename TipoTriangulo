@@ -1,0 +1,26 @@
+Algoritmo TipoTriangulo
+    Definir a, b, c, mayor Como Real
+    Escribir "Ingrese los tres ángulos:"
+    Leer a, b, c
+    Si a > 0 Y b > 0 Y c > 0 Y a+b+c = 180 Entonces
+        mayor <- a
+        Si b > mayor Entonces
+            mayor <- b
+        FinSi
+        Si c > mayor Entonces
+            mayor <- c
+        FinSi
+
+        Si mayor < 90 Entonces
+            Escribir "Triángulo acutángulo"
+        SiNo
+            Si mayor = 90 Entonces
+                Escribir "Triángulo rectángulo"
+            SiNo
+                Escribir "Triángulo obtusángulo"
+            FinSi
+        FinSi
+    SiNo
+        Escribir "Los ángulos no forman un triángulo"
+    FinSi
+FinAlgoritmo

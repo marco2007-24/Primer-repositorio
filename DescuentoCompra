@@ -1,4 +1,4 @@
-Algoritmo DescuentoCompra
+Algoritmo DescuentoCompra()
   Inicio
           Definir compra, descuento, total Como Real
       

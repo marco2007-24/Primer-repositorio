@@ -1,4 +1,4 @@
-Algoritmo Calificaciones
+Algoritmo Calificaciones()
   Inicio
           Definir N, i, aprobados, reprobados Como Entero
           Definir nota Como Real

@@ -1,4 +1,4 @@
-Algoritmo Energia
+Algoritmo Energia()
   Inicio
           Definir potencia, horas, tarifa, consumo, costo Como Real
       

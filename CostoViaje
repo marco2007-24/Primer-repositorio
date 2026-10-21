@@ -1,4 +1,4 @@
-Algoritmo CostoViaje
+Algoritmo CostoViaje()
     Definir distancia, consumo, precio Como Real
     Definir litros, combustible, peajes, costo, total Como Real
     Definir cantidad, i Como Entero

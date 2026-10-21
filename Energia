@@ -1,0 +1,17 @@
+Algoritmo Energia
+  Inicio
+          Definir potencia, horas, tarifa, consumo, costo Como Real
+      
+          Escribir "Ingrese la potencia en vatios:"
+          Leer potencia
+          Escribir "Ingrese las horas de uso diario:"
+          Leer horas
+          Escribir "Ingrese la tarifa por kWh:"
+          Leer tarifa
+      
+          consumo <- (potencia / 1000) * horas * 30
+          costo <- consumo * tarifa
+      
+          Escribir "Consumo mensual: ", consumo, " kWh"
+          Escribir "Costo mensual: $", costo
+ Fin

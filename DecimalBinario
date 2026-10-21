@@ -1,4 +1,4 @@
-Algoritmo DecimalBinario
+Algoritmo DecimalBinario()
   Inicio
           Definir n, residuo Como Entero
           Definir binario Como Cadena

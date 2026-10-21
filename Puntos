@@ -1,4 +1,4 @@
-Algoritmo Puntos
+Algoritmo Puntos()
   Inicio
           Definir x1, y1, x2, y2, distancia, xm, ym Como Real
           Escribir "Ingrese x1, y1:"

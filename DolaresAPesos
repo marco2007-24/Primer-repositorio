@@ -1,4 +1,4 @@
-Algoritmo DolaresAPesos
+Algoritmo DolaresAPesos()
   Inicio
           Definir dolares, cambio, pesos Como Real
           Escribir "Ingrese la cantidad en dólares:"

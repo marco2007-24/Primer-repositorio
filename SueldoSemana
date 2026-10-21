@@ -1,4 +1,4 @@
-Algoritmo Sueldo_Semana
+Algoritmo Sueldo_Semana()
    Inicio
          Definir horas Como Entero
         Definir tarifa, sueldo Como Real

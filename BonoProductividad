@@ -1,4 +1,4 @@
-Algoritmo BonoProductividad
+Algoritmo BonoProductividad()
   Inicio
           Definir sueldo, productividad, porcentaje, bono, total Como Real
           Escribir "Ingrese el sueldo base:"

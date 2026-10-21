@@ -1,4 +1,4 @@
-Algoritmo TablaMultiplicar
+Algoritmo TablaMultiplicar()
   Inicio
           Definir k, i, resultado Como Entero
           Escribir "Ingrese un número entero:"

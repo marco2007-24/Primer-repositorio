@@ -1,4 +1,4 @@
-Algoritmo MenorTresNumeros
+Algoritmo MenorTresNumeros()
   Inicio
           Definir a, b, c, menor Como Real
           Escribir "Ingrese el primer número:"

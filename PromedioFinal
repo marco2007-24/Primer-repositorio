@@ -1,4 +1,4 @@
-Algoritmo Promedio_Final
+Algoritmo Promedio_Final()
    Inicio
          
              Definir nota1, nota2, nota3, promedio Como Real

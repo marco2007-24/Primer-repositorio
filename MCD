@@ -1,4 +1,4 @@
-Algoritmo MCD
+Algoritmo MCD()
   Inicio
           Definir a, b, residuo Como Entero
       

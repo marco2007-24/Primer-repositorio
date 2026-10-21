@@ -1,0 +1,23 @@
+Algoritmo DecimalHexadecimal()
+  Inicio
+          Definir n, residuo Como Entero
+          Definir hexadecimal, digitos Como Cadena
+      
+          Escribir "Ingrese un número decimal no negativo:"
+          Leer n
+      
+          digitos <- "0123456789ABCDEF"
+          hexadecimal <- ""
+      
+          Si n = 0 Entonces
+              hexadecimal <- "0"
+          SiNo
+              Mientras n > 0 Hacer
+                  residuo <- n MOD 16
+                  hexadecimal <- Subcadena(digitos, residuo+1, residuo+1) + hexadecimal
+                  n <- Trunc(n / 16)
+              FinMientras
+          FinSi
+      
+          Escribir "Número hexadecimal: ", hexadecimal
+  Fin

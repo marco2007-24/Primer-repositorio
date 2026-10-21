@@ -1,0 +1,17 @@
+Algoritmo TarifaTaxi
+    Definir km, total Como Real
+    Definir noche Como Cadena
+    Escribir "Ingrese los kilómetros recorridos:"
+    Leer km
+    Escribir "¿Es de noche? (S/N):"
+    Leer noche
+    total <- 2 + 1.50 * km
+    Si km > 10 Entonces
+        total <- total * 1.20
+    FinSi
+    Si Mayusculas(noche) = "S" Entonces
+        total <- total * 1.30
+    FinSi
+
+    Escribir "Total a pagar: $", total
+FinAlgoritmo

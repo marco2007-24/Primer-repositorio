@@ -1,0 +1,18 @@
+Algoritmo Amortizacion()
+  Inicio
+          Definir monto, tasa, interes, cuota Como Real
+          Definir meses Como Entero
+      
+          Escribir "Ingrese el monto del préstamo:"
+          Leer monto
+          Escribir "Ingrese la tasa mensual (%):"
+          Leer tasa
+          Escribir "Ingrese el número de meses:"
+          Leer meses
+      
+          interes <- monto * (tasa / 100) * meses
+          cuota <- (monto + interes) / meses
+      
+          Escribir "Interés total: ", interes
+          Escribir "Cuota mensual: ", cuota
+ Fin

@@ -1,4 +1,4 @@
-Algoritmo TarifaTaxi
+Algoritmo TarifaTaxi()
     Definir km, total Como Real
     Definir noche Como Cadena
     Escribir "Ingrese los kilómetros recorridos:"

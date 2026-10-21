@@ -1,4 +1,4 @@
-Algoritmo ParImpar
+Algoritmo ParImpar()
   Inicio
           Definir numero Como Entero
           Escribir "Ingrese un número entero:"

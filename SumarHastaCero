@@ -1,4 +1,4 @@
-Algoritmo SumaHastaCero
+Algoritmo SumaHastaCero()
   Inicio
           Definir numero, suma Como Entero
           suma <- 0

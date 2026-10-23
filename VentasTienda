@@ -1,0 +1,39 @@
+Algoritmo Ventas_Tienda
+  Inicio
+          Definir venta, total, promedio, mayor Como Real
+          Definir dias, contador, dia_mayor Como Entero
+          total <- 0
+          dias <- 0
+          contador <- 0
+          mayor <- 0
+          dia_mayor <- 0
+          Escribir "Ingrese la venta del dia (-1 para terminar):"
+          Leer venta
+          Mientras venta <> -1 Hacer
+              dias <- dias + 1
+              total <- total + venta
+      
+              Si venta > 500 Entonces
+                  contador <- contador + 1
+              FinSi
+      
+              Si dias = 1 O venta > mayor Entonces
+                  mayor <- venta
+                  dia_mayor <- dias
+              FinSi
+      
+              Escribir "Ingrese la venta del dia (-1 para terminar):"
+              Leer venta
+          FinMientras
+      
+          Si dias > 0 Entonces
+              promedio <- total / dias
+              Escribir "Total de ventas: ", total
+              Escribir "Promedio de ventas: ", promedio
+              Escribir "Dias con ventas superiores a $500: ", contador
+              Escribir "Mayor venta: ", mayor
+              Escribir "Dia de la mayor venta: ", dia_mayor
+          Sino
+              Escribir "No se ingresaron ventas"
+          FinSi
+ Fin

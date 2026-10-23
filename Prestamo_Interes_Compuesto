@@ -1,19 +1,19 @@
 Algoritmo Prestamo_Interes_Compuesto()
   Inicio
-    Definir C, i, M, porcentaje, abono, final Como Real
-    Definir n Como Entero
-    Escribir "Ingrese el monto del prestamo:"
-    Leer C
-    Escribir "Ingrese la tasa de interes trimestral en decimal:"
-    Leer i
-    Escribir "Ingrese el numero de trimestres:"
-    Leer n
-    Escribir "Ingrese el porcentaje de abono extraordinario:"
-    Leer porcentaje
-    M <- C * (1 + i)^n
-    abono <- M * porcentaje / 100
-    final <- M - abono
-    Escribir "Monto total antes del abono: ", M
-    Escribir "Valor del abono extraordinario: ", abono
-    Escribir "Monto final a cancelar: ", final
+          Definir C, i, M, porcentaje, abono, final Como Real
+          Definir n Como Entero
+          Escribir "Ingrese el monto del prestamo:"
+          Leer C
+          Escribir "Ingrese la tasa de interes trimestral en decimal:"
+          Leer i
+          Escribir "Ingrese el numero de trimestres:"
+          Leer n
+          Escribir "Ingrese el porcentaje de abono extraordinario:"
+          Leer porcentaje
+          M <- C * (1 + i)^n
+          abono <- M * porcentaje / 100
+          final <- M - abono
+          Escribir "Monto total antes del abono: ", M
+          Escribir "Valor del abono extraordinario: ", abono
+          Escribir "Monto final a cancelar: ", final
  Fin

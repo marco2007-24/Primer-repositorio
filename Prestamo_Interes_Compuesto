@@ -1,4 +1,5 @@
-Algoritmo Prestamo_Interes_Compuesto
+Algoritmo Prestamo_Interes_Compuesto()
+  Inicio
     Definir C, i, M, porcentaje, abono, final Como Real
     Definir n Como Entero
     Escribir "Ingrese el monto del prestamo:"
@@ -15,4 +16,4 @@ Algoritmo Prestamo_Interes_Compuesto
     Escribir "Monto total antes del abono: ", M
     Escribir "Valor del abono extraordinario: ", abono
     Escribir "Monto final a cancelar: ", final
-FinAlgoritmo
+ Fin

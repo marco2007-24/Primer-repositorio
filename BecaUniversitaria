@@ -1,0 +1,34 @@
+Algoritmo Beca_Universitaria()
+  Inicio
+    Definir promedio Como Real
+    Definir reprobadas Como Entero
+    Definir primer_ciclo Como Caracter
+    Definir beca Como Entero
+    Escribir "Ingrese el promedio:"
+    Leer promedio
+    Escribir "Ingrese el numero de materias reprobadas:"
+    Leer reprobadas
+    Escribir "Es estudiante de primer ciclo? S/N:"
+    Leer primer_ciclo
+    Si promedio >= 9 Y reprobadas = 0 Y primer_ciclo = "S" Entonces
+        beca <- 100
+    Sino
+        Si promedio >= 8 Y reprobadas <= 1 Entonces
+            beca <- 70
+        Sino
+            Si promedio >= 7 Y reprobadas <= 2 Entonces
+                beca <- 40
+            Sino
+                beca <- 0
+            FinSi
+        FinSi
+    FinSi
+
+    Escribir "Porcentaje de beca: ", beca, "%"
+
+    Si beca > 0 Entonces
+        Escribir "Beca aprobada"
+    Sino
+        Escribir "Beca rechazada"
+    FinSi
+  Fin

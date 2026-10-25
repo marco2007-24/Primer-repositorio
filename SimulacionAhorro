@@ -1,0 +1,14 @@
+Algoritmo SimulacionAhorro
+  Inicio
+          Definir n, mes Como Entero
+          Definir aporte, saldo Como Real
+          saldo <- 0
+          Escribir "Ingrese el numero de meses:"
+          Leer n
+          Para mes <- 1 Hasta n Hacer
+              Escribir "Ingrese el aporte del mes ", mes
+              Leer aporte
+              saldo <- (saldo+aporte)*1.008
+          FinPara
+          Escribir "Saldo final: ", saldo
+  Fin

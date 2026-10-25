@@ -1,0 +1,12 @@
+Algoritmo HipotenusaArea
+   Inicio
+          Definir a, b, hipotenusa, area Como Real
+          Escribir "Ingrese el primer cateto:"
+          Leer a
+          Escribir "Ingrese el segundo cateto:"
+          Leer b
+          hipotenusa <- RC(a^2+b^2)
+          area <- (a*b)/2
+          Escribir "Hipotenusa: ", hipotenusa
+          Escribir "Area: ", area
+   Fin

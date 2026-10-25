@@ -1,0 +1,12 @@
+Algoritmo SerieArmonica()
+  Inicio
+          Definir n, i Como Entero
+          Definir suma Como Real
+          Escribir "Ingrese N:"
+          Leer n
+          suma <- 0
+          Para i <- 1 Hasta n Hacer
+              suma <- suma+1/i
+          FinPara
+          Escribir "Suma total: ", suma
+  Fin

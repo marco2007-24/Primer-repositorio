@@ -1,0 +1,19 @@
+Algoritmo ValorFuturoAnualidad
+  Inicio
+          Definir deposito, tasa, valorFuturo, total Como Real
+          Definir meses Como Entero
+          Escribir "Ingrese el depósito mensual:"
+          Leer deposito
+          Escribir "Ingrese la tasa mensual decimal:"
+          Leer tasa
+          Escribir "Ingrese el número de meses:"
+          Leer meses
+          total <- deposito * meses
+          Si tasa = 0 Entonces
+              valorFuturo <- total
+          SiNo
+              valorFuturo <- deposito * (((1+tasa)^meses-1)/tasa)
+          FinSi
+          Escribir "Total depositado: ", total
+          Escribir "Valor futuro: ", valorFuturo
+ Fin

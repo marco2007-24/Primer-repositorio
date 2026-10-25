@@ -1,0 +1,15 @@
+Algoritmo Prestamo()
+  Inicio
+          Definir capital, tasa, interes, cuota Como Real
+          Definir meses Como Entero
+          Escribir "Ingrese el capital:"
+          Leer capital
+          Escribir "Ingrese la tasa anual en porcentaje:"
+          Leer tasa
+          Escribir "Ingrese el plazo en meses:"
+          Leer meses
+          interes <- capital*(tasa/100)*(meses/12)
+          cuota <- (capital+interes)/meses
+          Escribir "Interes total: ", interes
+          Escribir "Cuota mensual: ", cuota
+  Fin

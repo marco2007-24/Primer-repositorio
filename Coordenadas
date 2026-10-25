@@ -1,0 +1,13 @@
+Algoritmo Coordenadas()
+  Inicio
+        Definir radio, angulo, radianes, x, y Como Real
+        Escribir "Ingrese el radio:"
+        Leer radio
+        Escribir "Ingrese el angulo en grados:"
+        Leer angulo
+        radianes <- angulo*PI/180
+        x <- radio*Cos(radianes)
+        y <- radio*Sen(radianes)
+        Escribir "Coordenada X: ", x
+        Escribir "Coordenada Y: ", y
+  Fin

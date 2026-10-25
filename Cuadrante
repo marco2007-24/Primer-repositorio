@@ -1,0 +1,31 @@
+Algoritmo Cuadrante()
+  Inicio
+          Definir x, y Como Real
+          Escribir "Ingrese X e Y:"
+          Leer x, y
+          Si x = 0 Y y = 0 Entonces
+              Escribir "Origen"
+          SiNo
+              Si x = 0 Entonces
+                  Escribir "Eje Y"
+              SiNo
+                  Si y = 0 Entonces
+                      Escribir "Eje X"
+                  SiNo
+                      Si x > 0 Y y > 0 Entonces
+                          Escribir "Primer cuadrante"
+                      SiNo
+                          Si x < 0 Y y > 0 Entonces
+                              Escribir "Segundo cuadrante"
+                          SiNo
+                              Si x < 0 Y y < 0 Entonces
+                                  Escribir "Tercer cuadrante"
+                              SiNo
+                                  Escribir "Cuarto cuadrante"
+                              FinSi
+                          FinSi
+                      FinSi
+                  FinSi
+              FinSi
+          FinSi
+  Fin

@@ -1,4 +1,4 @@
-Algoritmo HipotenusaArea
+Algoritmo HipotenusaArea()
    Inicio
           Definir a, b, hipotenusa, area Como Real
           Escribir "Ingrese el primer cateto:"

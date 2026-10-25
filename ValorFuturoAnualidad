@@ -1,4 +1,4 @@
-Algoritmo ValorFuturoAnualidad
+Algoritmo ValorFuturoAnualidad()
   Inicio
           Definir deposito, tasa, valorFuturo, total Como Real
           Definir meses Como Entero

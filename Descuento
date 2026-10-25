@@ -1,0 +1,28 @@
+Algoritmo Descuento()
+  Inicio
+          Definir monto, porcentaje, total Como Real
+          Definir frecuente Como Caracter
+          Escribir "Ingrese el monto:"
+          Leer monto
+          Escribir "Es cliente frecuente? S/N:"
+          Leer frecuente
+          Si monto >= 500 Entonces
+              porcentaje <- 15
+          SiNo
+              Si monto >= 300 Entonces
+                  porcentaje <- 10
+              SiNo
+                  Si monto >= 100 Entonces
+                      porcentaje <- 5
+                  SiNo
+                      porcentaje <- 0
+                  FinSi
+              FinSi
+          FinSi
+          Si frecuente = "S" O frecuente = "s" Entonces
+              porcentaje <- porcentaje+5
+          FinSi
+          total <- monto-(monto*porcentaje/100)
+          Escribir "Descuento: ", porcentaje, "%"
+          Escribir "Total a pagar: ", total
+ Fin

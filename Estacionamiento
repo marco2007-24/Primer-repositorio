@@ -1,0 +1,17 @@
+Algoritmo Estacionamiento()
+  Inicio
+          Definir horas, total Como Real
+          Definir nocturno Como Caracter
+          Escribir "Ingrese las horas:"
+          Leer horas
+          Escribir "Es horario nocturno? S/N:"
+          Leer nocturno
+          total <- horas*1.50
+          Si horas > 8 Entonces
+              total <- total*1.25
+          FinSi
+          Si nocturno = "S" O nocturno = "s" Entonces
+              total <- total*1.30
+          FinSi
+          Escribir "Total a pagar: $", total
+   Fin

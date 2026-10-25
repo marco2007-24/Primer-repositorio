@@ -1,0 +1,20 @@
+Algoritmo EcuacionCuadratica()
+  Inicio
+          Definir a, b, c, d Como Real
+          Escribir "Ingrese a, b y c:"
+          Leer a, b, c
+          Si a = 0 Entonces
+              Escribir "No es una ecuacion cuadratica"
+          SiNo
+              d <- b^2-4*a*c
+              Si d > 0 Entonces
+                  Escribir "Dos soluciones reales"
+              SiNo
+                  Si d = 0 Entonces
+                      Escribir "Una solucion real"
+                  SiNo
+                      Escribir "Ninguna solucion real"
+                  FinSi
+              FinSi
+          FinSi
+  Fin

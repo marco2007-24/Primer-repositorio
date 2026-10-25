@@ -1,4 +1,4 @@
-Algoritmo CostoEnvio
+Algoritmo CostoEnvio()
   Inicio
         Definir real, largo, ancho, alto Como Real
         Definir volumetrico, cobrar, costo Como Real

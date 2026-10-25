@@ -1,0 +1,14 @@
+Algoritmo InvertirNumero()
+  Inicio
+          Definir numero, temporal, digito, invertido Como Entero
+          Escribir "Ingrese un numero positivo:"
+          Leer numero
+          temporal <- numero
+          invertido <- 0
+          Mientras temporal > 0 Hacer
+              digito <- temporal MOD 10
+              invertido <- invertido*10+digito
+              temporal <- TRUNC(temporal/10)
+          FinMientras
+          Escribir "Numero invertido: ", invertido
+  Fin

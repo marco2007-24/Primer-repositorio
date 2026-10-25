@@ -1,0 +1,21 @@
+Algoritmo ClasificacionEstudiante()
+  Inicio
+          Definir promedio, asistencia Como Real
+          Escribir "Ingrese el promedio:"
+          Leer promedio
+          Escribir "Ingrese la asistencia en porcentaje:"
+          Leer asistencia
+          Si promedio >= 9 Y asistencia >= 90 Entonces
+              Escribir "Excelente"
+          SiNo
+              Si promedio >= 7 Y asistencia >= 80 Entonces
+                  Escribir "Bueno"
+              SiNo
+                  Si promedio >= 6 Y asistencia >= 70 Entonces
+                      Escribir "Regular"
+                  SiNo
+                      Escribir "Deficiente"
+                  FinSi
+              FinSi
+          FinSi
+  Fin

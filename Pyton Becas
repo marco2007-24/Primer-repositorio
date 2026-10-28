@@ -1,0 +1,20 @@
+
+promedio = float(input("Ingrese el promedio: "))
+reprobadas = int(input("Ingrese materias reprobadas: "))
+primer_ciclo = input("Es de primer ciclo? S/N: ").upper()
+
+if promedio >= 9 and reprobadas == 0 and primer_ciclo == "S":
+    beca = 100
+elif promedio >= 8 and reprobadas <= 1:
+    beca = 70
+elif promedio >= 7 and reprobadas <= 2:
+    beca = 40
+else:
+    beca = 0
+
+print("Porcentaje de beca:", beca, "%")
+
+if beca > 0:
+    print("Beca aprobada")
+else:
+    print("Beca rechazada")

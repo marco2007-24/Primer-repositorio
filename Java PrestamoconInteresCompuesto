@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+
+public class Prestamo {
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+
+        System.out.print("Monto del prestamo: ");
+        double capital = leer.nextDouble();
+
+        System.out.print("Tasa trimestral en decimal: ");
+        double interes = leer.nextDouble();
+
+        System.out.print("Numero de trimestres: ");
+        int trimestres = leer.nextInt();
+
+        System.out.print("Porcentaje de abono: ");
+        double porcentaje = leer.nextDouble();
+
+        double monto = capital * Math.pow(1 + interes, trimestres);
+        double abono = monto * porcentaje / 100;
+        double fin = monto - abono;
+
+        System.out.printf("Monto antes del abono: %.2f%n", monto);
+        System.out.printf("Abono extraordinario: %.2f%n", abono);
+        System.out.printf("Monto final a cancelar: %.2f%n", fin);
+
+        leer.close();
+    }
+}

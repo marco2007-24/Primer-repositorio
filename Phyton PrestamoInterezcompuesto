@@ -1,0 +1,13 @@
+
+capital = float(input("Ingrese el monto del prestamo: "))
+interes = float(input("Ingrese la tasa trimestral en decimal: "))
+trimestres = int(input("Ingrese el numero de trimestres: "))
+porcentaje = float(input("Ingrese el porcentaje de abono: "))
+
+monto = capital * (1 + interes) ** trimestres
+abono = monto * porcentaje / 100
+final = monto - abono
+
+print("Monto antes del abono:", round(monto, 2))
+print("Abono extraordinario:", round(abono, 2))
+print("Monto final a cancelar:", round(final, 2))

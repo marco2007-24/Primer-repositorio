@@ -1,4 +1,4 @@
-Algoritmo Amortizacion()
+Algoritmo Amortizacion2()
   Inicio
           Definir monto, tasa, interes, cuota Como Real
           Definir meses Como Entero
